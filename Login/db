@@ -1,0 +1,12 @@
+
+drop table student;
+
+create table student
+(
+	username varchar2(20),
+	password varchar2(20),
+	email varchar2(50),
+	phone varchar2(10),
+	regdno varchar2(7),
+	college varchar2(20)
+);
